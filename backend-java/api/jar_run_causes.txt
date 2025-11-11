@@ -1,0 +1,10 @@
+﻿
+> jar_run.log:1:java : Error: Unable to access jarfile .\target\*.jar
+  jar_run.log:2:No linha:1 caractere:1
+  jar_run.log:3:+ java -jar .\target\*.jar 2>&1 | Tee-Object -File jar_run.log
+  jar_run.log:4:+ ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+> jar_run.log:5:    + CategoryInfo          : NotSpecified: (Error: Unable t... .\target\*.jar:String) [], RemoteException
+> jar_run.log:6:    + FullyQualifiedErrorId : NativeCommandError
+  jar_run.log:7: 
+
+

@@ -1,0 +1,510 @@
+﻿
+  spring_run.log:13:[DEBUG]   Imported: org.apache.maven.classrealm < plexus.core
+  spring_run.log:14:[DEBUG]   Imported: org.apache.maven.cli < plexus.core
+  spring_run.log:15:[DEBUG]   Imported: org.apache.maven.configuration < plexus.core
+> spring_run.log:16:[DEBUG]   Imported: org.apache.maven.exception < plexus.core
+  spring_run.log:17:[DEBUG]   Imported: org.apache.maven.execution < plexus.core
+  spring_run.log:18:[DEBUG]   Imported: org.apache.maven.execution.scope < plexus.core
+  spring_run.log:19:[DEBUG]   Imported: org.apache.maven.graph < plexus.core
+  spring_run.log:20:[DEBUG]   Imported: org.apache.maven.lifecycle < plexus.core
+  spring_run.log:21:[DEBUG]   Imported: org.apache.maven.model < plexus.core
+  spring_run.log:22:[DEBUG]   Imported: org.apache.maven.monitor < plexus.core
+  spring_run.log:23:[DEBUG]   Imported: org.apache.maven.plugin < plexus.core
+  spring_run.log:24:[DEBUG]   Imported: org.apache.maven.profiles < plexus.core
+  spring_run.log:25:[DEBUG]   Imported: org.apache.maven.project < plexus.core
+  spring_run.log:26:[DEBUG]   Imported: org.apache.maven.reporting < plexus.core
+  spring_run.log:27:[DEBUG]   Imported: org.apache.maven.repository < plexus.core
+  spring_run.log:28:[DEBUG]   Imported: org.apache.maven.rtinfo < plexus.core
+  spring_run.log:49:[DEBUG]   Imported: org.codehaus.plexus.personality < plexus.core
+  spring_run.log:50:[DEBUG]   Imported: org.codehaus.plexus.util.xml.Xpp3Dom < plexus.core
+  spring_run.log:51:[DEBUG]   Imported: org.codehaus.plexus.util.xml.pull.XmlPullParser < plexus.core
+> spring_run.log:52:[DEBUG]   Imported: org.codehaus.plexus.util.xml.pull.XmlPullParserException < plexus.core
+  spring_run.log:53:[DEBUG]   Imported: org.codehaus.plexus.util.xml.pull.XmlSerializer < plexus.core
+  spring_run.log:54:[DEBUG]   Imported: org.eclipse.aether.* < plexus.core
+  spring_run.log:55:[DEBUG]   Imported: org.eclipse.aether.artifact < plexus.core
+  spring_run.log:56:[DEBUG]   Imported: org.eclipse.aether.collection < plexus.core
+  spring_run.log:57:[DEBUG]   Imported: org.eclipse.aether.deployment < plexus.core
+  spring_run.log:58:[DEBUG]   Imported: org.eclipse.aether.graph < plexus.core
+  spring_run.log:59:[DEBUG]   Imported: org.eclipse.aether.impl < plexus.core
+  spring_run.log:60:[DEBUG]   Imported: org.eclipse.aether.installation < plexus.core
+  spring_run.log:61:[DEBUG]   Imported: org.eclipse.aether.internal.impl < plexus.core
+  spring_run.log:62:[DEBUG]   Imported: org.eclipse.aether.metadata < plexus.core
+  spring_run.log:63:[DEBUG]   Imported: org.eclipse.aether.repository < plexus.core
+  spring_run.log:64:[DEBUG]   Imported: org.eclipse.aether.resolution < plexus.core
+  spring_run.log:73:[DEBUG]   Imported: org.slf4j.spi.* < plexus.core
+  spring_run.log:74:[DEBUG] Populating class realm maven.api
+  spring_run.log:75:[DEBUG] Created adapter factory; available factories [file-lock, rwlock-local, semaphore-local, noop]; 
+available name mappers [discriminating, file-gav, file-hgav, file-static, gav, static]
+> spring_run.log:76:[INFO] Error stacktraces are turned on.
+  spring_run.log:77:[DEBUG] Message scheme: color
+> spring_run.log:78:[DEBUG] Message styles: debug info warning error success failure strong mojo project
+  spring_run.log:79:[DEBUG] Reading global settings from 
+C:\Users\Ander\OneDrive\Desktop\Documentos\DevTools\apache-maven-3.9.11\conf\settings.xml
+  spring_run.log:80:[DEBUG] Reading user settings from C:\Users\Ander\.m2\settings.xml
+  spring_run.log:81:[DEBUG] Reading global toolchains from 
+C:\Users\Ander\OneDrive\Desktop\Documentos\DevTools\apache-maven-3.9.11\conf\toolchains.xml
+  spring_run.log:82:[DEBUG] Reading user toolchains from C:\Users\Ander\.m2\toolchains.xml
+  spring_run.log:83:[DEBUG] Using local repository at C:\Users\Ander\.m2\repository
+  spring_run.log:84:[DEBUG] Using manager EnhancedLocalRepositoryManager with priority 10.0 for C:\Users\Ander\.m2\repository
+  spring_run.log:85:[INFO] Scanning for projects...
+  spring_run.log:86:[DEBUG] Creating adapter using nameMapper 'gav' and factory 'rwlock-local'
+  spring_run.log:87:[DEBUG] Extension realms for project com.fiap.gs:api:jar:0.0.1-SNAPSHOT: (none)
+  spring_run.log:88:[DEBUG] Looking up lifecycle mappings for packaging jar from ClassRealm[plexus.core, parent: null]
+  spring_run.log:89:[DEBUG] Extension realms for project org.springframework.boot:spring-boot-starter-parent:pom:3.3.5: (none)
+  spring_run.log:90:[DEBUG] Looking up lifecycle mappings for packaging pom from ClassRealm[plexus.core, parent: null]
+  spring_run.log:163:  <enablePreview default-value="false">${maven.compiler.enablePreview}</enablePreview>
+  spring_run.log:164:  <encoding default-value="${project.build.sourceEncoding}">${encoding}</encoding>
+  spring_run.log:165:  <executable>${maven.compiler.executable}</executable>
+> spring_run.log:166:  <failOnError default-value="true">${maven.compiler.failOnError}</failOnError>
+  spring_run.log:167:  <failOnWarning default-value="false">${maven.compiler.failOnWarning}</failOnWarning>
+  spring_run.log:168:  <forceJavacCompilerUse 
+default-value="false">${maven.compiler.forceJavacCompilerUse}</forceJavacCompilerUse>
+  spring_run.log:169:  <fork default-value="false">${maven.compiler.fork}</fork>
+  spring_run.log:170:  <generatedSourcesDirectory default-value="${project.build.directory}/generated-sources/annotations"/>
+  spring_run.log:171:  <implicit>${maven.compiler.implicit}</implicit>
+  spring_run.log:172:  <maxmem>${maven.compiler.maxmem}</maxmem>
+  spring_run.log:173:  <meminitial>${maven.compiler.meminitial}</meminitial>
+  spring_run.log:174:  <mojoExecution default-value="${mojoExecution}"/>
+  spring_run.log:175:  <optimize default-value="false">${maven.compiler.optimize}</optimize>
+  spring_run.log:176:  <outputDirectory default-value="${project.build.outputDirectory}"/>
+  spring_run.log:177:  <parameters default-value="false">true</parameters>
+  spring_run.log:178:  <project default-value="${project}"/>
+  spring_run.log:233:  <enablePreview default-value="false">${maven.compiler.enablePreview}</enablePreview>
+  spring_run.log:234:  <encoding default-value="${project.build.sourceEncoding}">${encoding}</encoding>
+  spring_run.log:235:  <executable>${maven.compiler.executable}</executable>
+> spring_run.log:236:  <failOnError default-value="true">${maven.compiler.failOnError}</failOnError>
+  spring_run.log:237:  <failOnWarning default-value="false">${maven.compiler.failOnWarning}</failOnWarning>
+  spring_run.log:238:  <forceJavacCompilerUse 
+default-value="false">${maven.compiler.forceJavacCompilerUse}</forceJavacCompilerUse>
+  spring_run.log:239:  <fork default-value="false">${maven.compiler.fork}</fork>
+  spring_run.log:240:  <generatedTestSourcesDirectory 
+default-value="${project.build.directory}/generated-test-sources/test-annotations"/>
+  spring_run.log:241:  <implicit>${maven.compiler.implicit}</implicit>
+  spring_run.log:242:  <maxmem>${maven.compiler.maxmem}</maxmem>
+  spring_run.log:243:  <meminitial>${maven.compiler.meminitial}</meminitial>
+  spring_run.log:244:  <mojoExecution default-value="${mojoExecution}"/>
+  spring_run.log:245:  <optimize default-value="false">${maven.compiler.optimize}</optimize>
+  spring_run.log:246:  <outputDirectory default-value="${project.build.testOutputDirectory}"/>
+  spring_run.log:247:  <parameters default-value="false">true</parameters>
+  spring_run.log:248:  <project default-value="${project}"/>
+  spring_run.log:505:[DEBUG] env.COMSPEC: C:\WINDOWS\system32\cmd.exe
+  spring_run.log:506:[DEBUG] env.DRIVERDATA: C:\Windows\System32\Drivers\DriverData
+  spring_run.log:507:[DEBUG] env.EFC_9580_1592913036: 1
+> spring_run.log:508:[DEBUG] env.ERROR_CODE: 0
+  spring_run.log:509:[DEBUG] env.EXEC_DIR: C:\Users\Ander\OneDrive\Desktop\Documentos\global-solution-2025\backend-java\api
+  spring_run.log:510:[DEBUG] env.GIT_ASKPASS: c:\Users\Ander\AppData\Local\Programs\Microsoft VS 
+Code\resources\app\extensions\git\dist\askpass.sh
+  spring_run.log:511:[DEBUG] env.HOMEDRIVE: C:
+  spring_run.log:512:[DEBUG] env.HOMEPATH: \Users\Ander
+  spring_run.log:513:[DEBUG] env.JAVACMD: C:\Users\Ander\.jdks\openjdk-21.0.2\bin\java.exe
+  spring_run.log:514:[DEBUG] env.JAVA_HOME: C:\Users\Ander\.jdks\openjdk-21.0.2
+  spring_run.log:515:[DEBUG] env.JVMCONFIG: \.mvn\jvm.config
+  spring_run.log:516:[DEBUG] env.LANG: en_US.UTF-8
+  spring_run.log:517:[DEBUG] env.LOCALAPPDATA: C:\Users\Ander\AppData\Local
+  spring_run.log:518:[DEBUG] env.LOGONSERVER: \\DESKTOP-5G4TU62
+  spring_run.log:519:[DEBUG] env.MAVEN_CMD_LINE_ARGS: -e -X spring-boot:run
+  spring_run.log:520:[DEBUG] env.MAVEN_HOME: C:\Users\Ander\OneDrive\Desktop\Documentos\DevTools\apache-maven-3.9.11
+  spring_run.log:540:[DEBUG] env.PSMODULEPATH: C:\Users\Ander\OneDrive\Desktop\Documentos\WindowsPowerShell\Modules;C:\Program 
+Files\WindowsPowerShell\Modules;C:\WINDOWS\system32\WindowsPowerShell\v1.0\Modules;C:\Program Files (x86)\Microsoft SQL 
+Server\160\Tools\PowerShell\Modules\
+  spring_run.log:541:[DEBUG] env.PUBLIC: C:\Users\Public
+  spring_run.log:542:[DEBUG] env.SESSIONNAME: Console
+> spring_run.log:543:[DEBUG] env.SPRING_DATASOURCE_PASSWORD: 300704
+> spring_run.log:544:[DEBUG] env.SPRING_DATASOURCE_USERNAME: rm553449
+  spring_run.log:545:[DEBUG] env.SYSTEMDRIVE: C:
+  spring_run.log:546:[DEBUG] env.SYSTEMROOT: C:\WINDOWS
+  spring_run.log:547:[DEBUG] env.TEMP: C:\Users\Ander\AppData\Local\Temp
+  spring_run.log:548:[DEBUG] env.TERM_PROGRAM: vscode
+  spring_run.log:549:[DEBUG] env.TERM_PROGRAM_VERSION: 1.105.1
+  spring_run.log:550:[DEBUG] env.TMP: C:\Users\Ander\AppData\Local\Temp
+  spring_run.log:551:[DEBUG] env.USERDOMAIN: DESKTOP-5G4TU62
+  spring_run.log:552:[DEBUG] env.USERDOMAIN_ROAMINGPROFILE: DESKTOP-5G4TU62
+  spring_run.log:553:[DEBUG] env.USERNAME: Ander
+  spring_run.log:554:[DEBUG] env.USERPROFILE: C:\Users\Ander
+  spring_run.log:555:[DEBUG] env.VSCODE_GIT_ASKPASS_EXTRA_ARGS: 
+  spring_run.log:556:[DEBUG] env.VSCODE_GIT_ASKPASS_MAIN: c:\Users\Ander\AppData\Local\Programs\Microsoft VS 
+Code\resources\app\extensions\git\dist\askpass-main.js
+  spring_run.log:565:[DEBUG] env.__PSLOCKDOWNPOLICY: 0
+  spring_run.log:566:[DEBUG] file.encoding: UTF-8
+  spring_run.log:567:[DEBUG] file.separator: \
+> spring_run.log:568:[DEBUG] flyway.version: 10.10.0
+  spring_run.log:569:[DEBUG] freemarker.version: 2.3.33
+  spring_run.log:570:[DEBUG] git-commit-id-maven-plugin.version: 8.0.2
+  spring_run.log:571:[DEBUG] glassfish-jaxb.version: 4.0.5
+  spring_run.log:572:[DEBUG] glassfish-jstl.version: 3.0.1
+  spring_run.log:573:[DEBUG] graphql-java.version: 22.3
+  spring_run.log:574:[DEBUG] groovy.version: 4.0.23
+  spring_run.log:575:[DEBUG] gson.version: 2.10.1
+  spring_run.log:576:[DEBUG] h2.version: 2.2.224
+  spring_run.log:577:[DEBUG] hamcrest.version: 2.2
+  spring_run.log:578:[DEBUG] hazelcast.version: 5.4.0
+  spring_run.log:579:[DEBUG] hibernate-validator.version: 8.0.1.Final
+  spring_run.log:580:[DEBUG] hibernate.version: 6.5.3.Final
+  spring_run.log:862:[DEBUG]   (f) debugFileName = javac
+  spring_run.log:863:[DEBUG]   (f) enablePreview = false
+  spring_run.log:864:[DEBUG]   (f) encoding = UTF-8
+> spring_run.log:865:[DEBUG]   (f) failOnError = true
+  spring_run.log:866:[DEBUG]   (f) failOnWarning = false
+  spring_run.log:867:[DEBUG]   (f) forceJavacCompilerUse = false
+  spring_run.log:868:[DEBUG]   (f) fork = false
+  spring_run.log:869:[DEBUG]   (f) generatedSourcesDirectory = 
+C:\Users\Ander\OneDrive\Desktop\Documentos\global-solution-2025\backend-java\api\target\generated-sources\annotations
+  spring_run.log:870:[DEBUG]   (f) mojoExecution = org.apache.maven.plugins:maven-compiler-plugin:3.11.0:compile {execution: 
+default-compile}
+  spring_run.log:871:[DEBUG]   (f) optimize = false
+  spring_run.log:872:[DEBUG]   (f) outputDirectory = 
+C:\Users\Ander\OneDrive\Desktop\Documentos\global-solution-2025\backend-java\api\target\classes
+  spring_run.log:873:[DEBUG]   (f) parameters = true
+  spring_run.log:874:[DEBUG]   (f) project = MavenProject: com.fiap.gs:api:0.0.1-SNAPSHOT @ 
+C:\Users\Ander\OneDrive\Desktop\Documentos\global-solution-2025\backend-java\api\pom.xml
+  spring_run.log:875:[DEBUG]   (f) projectArtifact = com.fiap.gs:api:jar:0.0.1-SNAPSHOT
+  spring_run.log:876:[DEBUG]   (s) release = 17
+  spring_run.log:877:[DEBUG]   (f) session = org.apache.maven.execution.MavenSession@1491344a
+  spring_run.log:963:[DEBUG] env.COMSPEC: C:\WINDOWS\system32\cmd.exe
+  spring_run.log:964:[DEBUG] env.DRIVERDATA: C:\Windows\System32\Drivers\DriverData
+  spring_run.log:965:[DEBUG] env.EFC_9580_1592913036: 1
+> spring_run.log:966:[DEBUG] env.ERROR_CODE: 0
+  spring_run.log:967:[DEBUG] env.EXEC_DIR: C:\Users\Ander\OneDrive\Desktop\Documentos\global-solution-2025\backend-java\api
+  spring_run.log:968:[DEBUG] env.GIT_ASKPASS: c:\Users\Ander\AppData\Local\Programs\Microsoft VS 
+Code\resources\app\extensions\git\dist\askpass.sh
+  spring_run.log:969:[DEBUG] env.HOMEDRIVE: C:
+  spring_run.log:970:[DEBUG] env.HOMEPATH: \Users\Ander
+  spring_run.log:971:[DEBUG] env.JAVACMD: C:\Users\Ander\.jdks\openjdk-21.0.2\bin\java.exe
+  spring_run.log:972:[DEBUG] env.JAVA_HOME: C:\Users\Ander\.jdks\openjdk-21.0.2
+  spring_run.log:973:[DEBUG] env.JVMCONFIG: \.mvn\jvm.config
+  spring_run.log:974:[DEBUG] env.LANG: en_US.UTF-8
+  spring_run.log:975:[DEBUG] env.LOCALAPPDATA: C:\Users\Ander\AppData\Local
+  spring_run.log:976:[DEBUG] env.LOGONSERVER: \\DESKTOP-5G4TU62
+  spring_run.log:977:[DEBUG] env.MAVEN_CMD_LINE_ARGS: -e -X spring-boot:run
+  spring_run.log:978:[DEBUG] env.MAVEN_HOME: C:\Users\Ander\OneDrive\Desktop\Documentos\DevTools\apache-maven-3.9.11
+  spring_run.log:998:[DEBUG] env.PSMODULEPATH: C:\Users\Ander\OneDrive\Desktop\Documentos\WindowsPowerShell\Modules;C:\Program 
+Files\WindowsPowerShell\Modules;C:\WINDOWS\system32\WindowsPowerShell\v1.0\Modules;C:\Program Files (x86)\Microsoft SQL 
+Server\160\Tools\PowerShell\Modules\
+  spring_run.log:999:[DEBUG] env.PUBLIC: C:\Users\Public
+  spring_run.log:1000:[DEBUG] env.SESSIONNAME: Console
+> spring_run.log:1001:[DEBUG] env.SPRING_DATASOURCE_PASSWORD: 300704
+> spring_run.log:1002:[DEBUG] env.SPRING_DATASOURCE_USERNAME: rm553449
+  spring_run.log:1003:[DEBUG] env.SYSTEMDRIVE: C:
+  spring_run.log:1004:[DEBUG] env.SYSTEMROOT: C:\WINDOWS
+  spring_run.log:1005:[DEBUG] env.TEMP: C:\Users\Ander\AppData\Local\Temp
+  spring_run.log:1006:[DEBUG] env.TERM_PROGRAM: vscode
+  spring_run.log:1007:[DEBUG] env.TERM_PROGRAM_VERSION: 1.105.1
+  spring_run.log:1008:[DEBUG] env.TMP: C:\Users\Ander\AppData\Local\Temp
+  spring_run.log:1009:[DEBUG] env.USERDOMAIN: DESKTOP-5G4TU62
+  spring_run.log:1010:[DEBUG] env.USERDOMAIN_ROAMINGPROFILE: DESKTOP-5G4TU62
+  spring_run.log:1011:[DEBUG] env.USERNAME: Ander
+  spring_run.log:1012:[DEBUG] env.USERPROFILE: C:\Users\Ander
+  spring_run.log:1013:[DEBUG] env.VSCODE_GIT_ASKPASS_EXTRA_ARGS: 
+  spring_run.log:1014:[DEBUG] env.VSCODE_GIT_ASKPASS_MAIN: c:\Users\Ander\AppData\Local\Programs\Microsoft VS 
+Code\resources\app\extensions\git\dist\askpass-main.js
+  spring_run.log:1023:[DEBUG] env.__PSLOCKDOWNPOLICY: 0
+  spring_run.log:1024:[DEBUG] file.encoding: UTF-8
+  spring_run.log:1025:[DEBUG] file.separator: \
+> spring_run.log:1026:[DEBUG] flyway.version: 10.10.0
+  spring_run.log:1027:[DEBUG] freemarker.version: 2.3.33
+  spring_run.log:1028:[DEBUG] git-commit-id-maven-plugin.version: 8.0.2
+  spring_run.log:1029:[DEBUG] glassfish-jaxb.version: 4.0.5
+  spring_run.log:1030:[DEBUG] glassfish-jstl.version: 3.0.1
+  spring_run.log:1031:[DEBUG] graphql-java.version: 22.3
+  spring_run.log:1032:[DEBUG] groovy.version: 4.0.23
+  spring_run.log:1033:[DEBUG] gson.version: 2.10.1
+  spring_run.log:1034:[DEBUG] h2.version: 2.2.224
+  spring_run.log:1035:[DEBUG] hamcrest.version: 2.2
+  spring_run.log:1036:[DEBUG] hazelcast.version: 5.4.0
+  spring_run.log:1037:[DEBUG] hibernate-validator.version: 8.0.1.Final
+  spring_run.log:1038:[DEBUG] hibernate.version: 6.5.3.Final
+  spring_run.log:1270:[DEBUG]   (f) debugFileName = javac-test
+  spring_run.log:1271:[DEBUG]   (f) enablePreview = false
+  spring_run.log:1272:[DEBUG]   (f) encoding = UTF-8
+> spring_run.log:1273:[DEBUG]   (f) failOnError = true
+  spring_run.log:1274:[DEBUG]   (f) failOnWarning = false
+  spring_run.log:1275:[DEBUG]   (f) forceJavacCompilerUse = false
+  spring_run.log:1276:[DEBUG]   (f) fork = false
+  spring_run.log:1277:[DEBUG]   (f) generatedTestSourcesDirectory = 
+C:\Users\Ander\OneDrive\Desktop\Documentos\global-solution-2025\backend-java\api\target\generated-test-sources\test-annotations
+  spring_run.log:1278:[DEBUG]   (f) mojoExecution = org.apache.maven.plugins:maven-compiler-plugin:3.11.0:testCompile 
+{execution: default-testCompile}
+  spring_run.log:1279:[DEBUG]   (f) optimize = false
+  spring_run.log:1280:[DEBUG]   (f) outputDirectory = 
+C:\Users\Ander\OneDrive\Desktop\Documentos\global-solution-2025\backend-java\api\target\test-classes
+  spring_run.log:1281:[DEBUG]   (f) parameters = true
+  spring_run.log:1282:[DEBUG]   (f) project = MavenProject: com.fiap.gs:api:0.0.1-SNAPSHOT @ 
+C:\Users\Ander\OneDrive\Desktop\Documentos\global-solution-2025\backend-java\api\pom.xml
+  spring_run.log:1283:[DEBUG]   (s) release = 17
+  spring_run.log:1284:[DEBUG]   (f) session = org.apache.maven.execution.MavenSession@1491344a
+  spring_run.log:1285:[DEBUG]   (f) showCompilationChanges = false
+  spring_run.log:1434:2025-11-11T13:48:31.402-03:00  INFO 26720 --- [gs-api] [           main] org.hibernate.Version            
+        : HHH000412: Hibernate ORM core version 6.5.3.Final
+  spring_run.log:1435:2025-11-11T13:48:31.504-03:00  INFO 26720 --- [gs-api] [           main] 
+o.h.c.internal.RegionFactoryInitiator    : HHH000026: Second-level cache disabled
+  spring_run.log:1436:2025-11-11T13:48:31.939-03:00  INFO 26720 --- [gs-api] [           main] 
+o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+> spring_run.log:1437:2025-11-11T13:48:31.973-03:00  INFO 26720 --- [gs-api] [           main] 
+com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+> spring_run.log:1438:2025-11-11T13:48:33.185-03:00  WARN 26720 --- [gs-api] [           main] 
+o.h.engine.jdbc.spi.SqlExceptionHelper   : SQL Error: 0, SQLState: 28P01
+> spring_run.log:1439:2025-11-11T13:48:33.185-03:00 ERROR 26720 --- [gs-api] [           main] 
+o.h.engine.jdbc.spi.SqlExceptionHelper   : FATAL: autentica´┐¢´┐¢o do tipo senha falhou para o usu´┐¢rio "rm553449"
+  spring_run.log:1440:2025-11-11T13:48:33.186-03:00  WARN 26720 --- [gs-api] [           main] 
+o.h.e.j.e.i.JdbcEnvironmentInitiator     : HHH000342: Could not obtain connection to query metadata
+  spring_run.log:1441:
+> spring_run.log:1442:org.hibernate.exception.GenericJDBCException: unable to obtain isolated JDBC connection [FATAL: 
+autentica´┐¢´┐¢o do tipo senha falhou para o usu´┐¢rio "rm553449"] [n/a]
+> spring_run.log:1443:	at 
+org.hibernate.exception.internal.StandardSQLExceptionConverter.convert(StandardSQLExceptionConverter.java:63) 
+~[hibernate-core-6.5.3.Final.jar:6.5.3.Final]
+> spring_run.log:1444:	at org.hibernate.engine.jdbc.spi.SqlExceptionHelper.convert(SqlExceptionHelper.java:108) 
+~[hibernate-core-6.5.3.Final.jar:6.5.3.Final]
+> spring_run.log:1445:	at org.hibernate.engine.jdbc.spi.SqlExceptionHelper.convert(SqlExceptionHelper.java:94) 
+~[hibernate-core-6.5.3.Final.jar:6.5.3.Final]
+  spring_run.log:1446:	at 
+org.hibernate.resource.transaction.backend.jdbc.internal.JdbcIsolationDelegate.delegateWork(JdbcIsolationDelegate.java:116) 
+~[hibernate-core-6.5.3.Final.jar:6.5.3.Final]
+  spring_run.log:1447:	at org.hibernate.engine.jdbc.env.internal.JdbcEnvironmentInitiator.getJdbcEnvironmentUsingJdbcMetadata(Jd
+bcEnvironmentInitiator.java:292) ~[hibernate-core-6.5.3.Final.jar:6.5.3.Final]
+  spring_run.log:1448:	at 
+org.hibernate.engine.jdbc.env.internal.JdbcEnvironmentInitiator.initiateService(JdbcEnvironmentInitiator.java:124) 
+~[hibernate-core-6.5.3.Final.jar:6.5.3.Final]
+  spring_run.log:1449:	at 
+org.hibernate.engine.jdbc.env.internal.JdbcEnvironmentInitiator.initiateService(JdbcEnvironmentInitiator.java:78) 
+~[hibernate-core-6.5.3.Final.jar:6.5.3.Final]
+  spring_run.log:1450:	at 
+org.hibernate.boot.registry.internal.StandardServiceRegistryImpl.initiateService(StandardServiceRegistryImpl.java:130) 
+~[hibernate-core-6.5.3.Final.jar:6.5.3.Final]
+  spring_run.log:1451:	at 
+org.hibernate.service.internal.AbstractServiceRegistryImpl.createService(AbstractServiceRegistryImpl.java:263) 
+~[hibernate-core-6.5.3.Final.jar:6.5.3.Final]
+  spring_run.log:1452:	at 
+org.hibernate.service.internal.AbstractServiceRegistryImpl.initializeService(AbstractServiceRegistryImpl.java:238) 
+~[hibernate-core-6.5.3.Final.jar:6.5.3.Final]
+  spring_run.log:1453:	at 
+org.hibernate.service.internal.AbstractServiceRegistryImpl.getService(AbstractServiceRegistryImpl.java:215) 
+~[hibernate-core-6.5.3.Final.jar:6.5.3.Final]
+  spring_run.log:1454:	at org.hibernate.boot.model.relational.Database.<init>(Database.java:45) 
+~[hibernate-core-6.5.3.Final.jar:6.5.3.Final]
+  spring_run.log:1455:	at 
+org.hibernate.boot.internal.InFlightMetadataCollectorImpl.getDatabase(InFlightMetadataCollectorImpl.java:221) 
+~[hibernate-core-6.5.3.Final.jar:6.5.3.Final]
+  spring_run.log:1456:	at 
+org.hibernate.boot.internal.InFlightMetadataCollectorImpl.<init>(InFlightMetadataCollectorImpl.java:189) 
+~[hibernate-core-6.5.3.Final.jar:6.5.3.Final]
+  spring_run.log:1457:	at 
+org.hibernate.boot.model.process.spi.MetadataBuildingProcess.complete(MetadataBuildingProcess.java:171) 
+~[hibernate-core-6.5.3.Final.jar:6.5.3.Final]
+  spring_run.log:1479:	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1363) 
+~[spring-boot-3.3.5.jar:3.3.5]
+  spring_run.log:1480:	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1352) 
+~[spring-boot-3.3.5.jar:3.3.5]
+  spring_run.log:1481:	at com.fiap.gs.api.ApiApplication.main(ApiApplication.java:9) ~[classes/:na]
+> spring_run.log:1482:Caused by: org.postgresql.util.PSQLException: FATAL: autentica´┐¢´┐¢o do tipo senha falhou para o 
+usu´┐¢rio "rm553449"
+  spring_run.log:1483:	at org.postgresql.core.v3.ConnectionFactoryImpl.doAuthentication(ConnectionFactoryImpl.java:711) 
+~[postgresql-42.7.4.jar:42.7.4]
+  spring_run.log:1484:	at org.postgresql.core.v3.ConnectionFactoryImpl.tryConnect(ConnectionFactoryImpl.java:213) 
+~[postgresql-42.7.4.jar:42.7.4]
+  spring_run.log:1485:	at org.postgresql.core.v3.ConnectionFactoryImpl.openConnectionImpl(ConnectionFactoryImpl.java:268) 
+~[postgresql-42.7.4.jar:42.7.4]
+  spring_run.log:1486:	at org.postgresql.core.ConnectionFactory.openConnection(ConnectionFactory.java:54) 
+~[postgresql-42.7.4.jar:42.7.4]
+  spring_run.log:1487:	at org.postgresql.jdbc.PgConnection.<init>(PgConnection.java:273) ~[postgresql-42.7.4.jar:42.7.4]
+  spring_run.log:1488:	at org.postgresql.Driver.makeConnection(Driver.java:446) ~[postgresql-42.7.4.jar:42.7.4]
+  spring_run.log:1489:	at org.postgresql.Driver.connect(Driver.java:298) ~[postgresql-42.7.4.jar:42.7.4]
+> spring_run.log:1490:	at com.zaxxer.hikari.util.DriverDataSource.getConnection(DriverDataSource.java:137) 
+~[HikariCP-5.1.0.jar:na]
+  spring_run.log:1491:	at com.zaxxer.hikari.pool.PoolBase.newConnection(PoolBase.java:360) ~[HikariCP-5.1.0.jar:na]
+  spring_run.log:1492:	at com.zaxxer.hikari.pool.PoolBase.newPoolEntry(PoolBase.java:202) ~[HikariCP-5.1.0.jar:na]
+  spring_run.log:1493:	at com.zaxxer.hikari.pool.HikariPool.createPoolEntry(HikariPool.java:461) ~[HikariCP-5.1.0.jar:na]
+  spring_run.log:1494:	at com.zaxxer.hikari.pool.HikariPool.checkFailFast(HikariPool.java:550) ~[HikariCP-5.1.0.jar:na]
+  spring_run.log:1495:	at com.zaxxer.hikari.pool.HikariPool.<init>(HikariPool.java:98) ~[HikariCP-5.1.0.jar:na]
+> spring_run.log:1496:	at com.zaxxer.hikari.HikariDataSource.getConnection(HikariDataSource.java:111) ~[HikariCP-5.1.0.jar:na]
+> spring_run.log:1497:	at org.hibernate.engine.jdbc.connections.internal.DatasourceConnectionProviderImpl.getConnection(Datasour
+ceConnectionProviderImpl.java:122) ~[hibernate-core-6.5.3.Final.jar:6.5.3.Final]
+  spring_run.log:1498:	at org.hibernate.engine.jdbc.env.internal.JdbcEnvironmentInitiator$ConnectionProviderJdbcConnectionAccess
+.obtainConnection(JdbcEnvironmentInitiator.java:439) ~[hibernate-core-6.5.3.Final.jar:6.5.3.Final]
+  spring_run.log:1499:	at 
+org.hibernate.resource.transaction.backend.jdbc.internal.JdbcIsolationDelegate.delegateWork(JdbcIsolationDelegate.java:61) 
+~[hibernate-core-6.5.3.Final.jar:6.5.3.Final]
+  spring_run.log:1500:	... 35 common frames omitted
+  spring_run.log:1501:
+> spring_run.log:1502:2025-11-11T13:48:33.193-03:00 ERROR 26720 --- [gs-api] [           main] 
+j.LocalContainerEntityManagerFactoryBean : Failed to initialize JPA EntityManagerFactory: Unable to create requested service 
+[org.hibernate.engine.jdbc.env.spi.JdbcEnvironment] due to: Unable to determine Dialect without JDBC metadata (please set 
+'jakarta.persistence.jdbc.url' for common cases or 'hibernate.dialect' when a custom Dialect implementation must be provided)
+> spring_run.log:1503:2025-11-11T13:48:33.194-03:00  WARN 26720 --- [gs-api] [           main] 
+ConfigServletWebServerApplicationContext : Exception encountered during context initialization - cancelling refresh attempt: 
+org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'entityManagerFactory' defined in class 
+path resource [org/springframework/boot/autoconfigure/orm/jpa/HibernateJpaConfiguration.class]: Unable to create requested 
+service [org.hibernate.engine.jdbc.env.spi.JdbcEnvironment] due to: Unable to determine Dialect without JDBC metadata (please 
+set 'jakarta.persistence.jdbc.url' for common cases or 'hibernate.dialect' when a custom Dialect implementation must be 
+provided)
+  spring_run.log:1504:2025-11-11T13:48:33.198-03:00  INFO 26720 --- [gs-api] [           main] 
+o.apache.catalina.core.StandardService   : Stopping service [Tomcat]
+  spring_run.log:1505:2025-11-11T13:48:33.244-03:00  INFO 26720 --- [gs-api] [           main] 
+.s.b.a.l.ConditionEvaluationReportLogger : 
+  spring_run.log:1506:
+> spring_run.log:1507:Error starting ApplicationContext. To display the condition evaluation report re-run your application 
+with 'debug' enabled.
+> spring_run.log:1508:2025-11-11T13:48:33.289-03:00 ERROR 26720 --- [gs-api] [           main] o.s.boot.SpringApplication       
+        : Application run failed
+  spring_run.log:1509:
+> spring_run.log:1510:org.springframework.beans.factory.BeanCreationException: Error creating bean with name 
+'entityManagerFactory' defined in class path resource 
+[org/springframework/boot/autoconfigure/orm/jpa/HibernateJpaConfiguration.class]: Unable to create requested service 
+[org.hibernate.engine.jdbc.env.spi.JdbcEnvironment] due to: Unable to determine Dialect without JDBC metadata (please set 
+'jakarta.persistence.jdbc.url' for common cases or 'hibernate.dialect' when a custom Dialect implementation must be provided)
+  spring_run.log:1511:	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.initializeBean(AbstractAu
+towireCapableBeanFactory.java:1806) ~[spring-beans-6.1.14.jar:6.1.14]
+  spring_run.log:1512:	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAuto
+wireCapableBeanFactory.java:600) ~[spring-beans-6.1.14.jar:6.1.14]
+  spring_run.log:1513:	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowi
+reCapableBeanFactory.java:522) ~[spring-beans-6.1.14.jar:6.1.14]
+  spring_run.log:1514:	at 
+org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:337) 
+~[spring-beans-6.1.14.jar:6.1.14]
+  spring_run.log:1515:	at 
+org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:234) 
+~[spring-beans-6.1.14.jar:6.1.14]
+  spring_run.log:1516:	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:335) 
+~[spring-beans-6.1.14.jar:6.1.14]
+  spring_run.log:1517:	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:205) 
+~[spring-beans-6.1.14.jar:6.1.14]
+  spring_run.log:1518:	at org.springframework.context.support.AbstractApplicationContext.finishBeanFactoryInitialization(Abstrac
+tApplicationContext.java:954) ~[spring-context-6.1.14.jar:6.1.14]
+  spring_run.log:1519:	at 
+org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:625) 
+~[spring-context-6.1.14.jar:6.1.14]
+  spring_run.log:1520:	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.refresh(ServletWebServ
+erApplicationContext.java:146) ~[spring-boot-3.3.5.jar:3.3.5]
+  spring_run.log:1521:	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:754) 
+~[spring-boot-3.3.5.jar:3.3.5]
+  spring_run.log:1522:	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:456) 
+~[spring-boot-3.3.5.jar:3.3.5]
+  spring_run.log:1524:	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1363) 
+~[spring-boot-3.3.5.jar:3.3.5]
+  spring_run.log:1525:	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1352) 
+~[spring-boot-3.3.5.jar:3.3.5]
+  spring_run.log:1526:	at com.fiap.gs.api.ApiApplication.main(ApiApplication.java:9) ~[classes/:na]
+> spring_run.log:1527:Caused by: org.hibernate.service.spi.ServiceException: Unable to create requested service 
+[org.hibernate.engine.jdbc.env.spi.JdbcEnvironment] due to: Unable to determine Dialect without JDBC metadata (please set 
+'jakarta.persistence.jdbc.url' for common cases or 'hibernate.dialect' when a custom Dialect implementation must be provided)
+  spring_run.log:1528:	at 
+org.hibernate.service.internal.AbstractServiceRegistryImpl.createService(AbstractServiceRegistryImpl.java:276) 
+~[hibernate-core-6.5.3.Final.jar:6.5.3.Final]
+  spring_run.log:1529:	at 
+org.hibernate.service.internal.AbstractServiceRegistryImpl.initializeService(AbstractServiceRegistryImpl.java:238) 
+~[hibernate-core-6.5.3.Final.jar:6.5.3.Final]
+  spring_run.log:1530:	at 
+org.hibernate.service.internal.AbstractServiceRegistryImpl.getService(AbstractServiceRegistryImpl.java:215) 
+~[hibernate-core-6.5.3.Final.jar:6.5.3.Final]
+  spring_run.log:1531:	at org.hibernate.boot.model.relational.Database.<init>(Database.java:45) 
+~[hibernate-core-6.5.3.Final.jar:6.5.3.Final]
+  spring_run.log:1532:	at 
+org.hibernate.boot.internal.InFlightMetadataCollectorImpl.getDatabase(InFlightMetadataCollectorImpl.java:221) 
+~[hibernate-core-6.5.3.Final.jar:6.5.3.Final]
+  spring_run.log:1533:	at 
+org.hibernate.boot.internal.InFlightMetadataCollectorImpl.<init>(InFlightMetadataCollectorImpl.java:189) 
+~[hibernate-core-6.5.3.Final.jar:6.5.3.Final]
+  spring_run.log:1534:	at 
+org.hibernate.boot.model.process.spi.MetadataBuildingProcess.complete(MetadataBuildingProcess.java:171) 
+~[hibernate-core-6.5.3.Final.jar:6.5.3.Final]
+  spring_run.log:1535:	at 
+org.hibernate.jpa.boot.internal.EntityManagerFactoryBuilderImpl.metadata(EntityManagerFactoryBuilderImpl.java:1431) 
+~[hibernate-core-6.5.3.Final.jar:6.5.3.Final]
+  spring_run.log:1536:	at 
+org.hibernate.jpa.boot.internal.EntityManagerFactoryBuilderImpl.build(EntityManagerFactoryBuilderImpl.java:1502) 
+~[hibernate-core-6.5.3.Final.jar:6.5.3.Final]
+  spring_run.log:1537:	at org.springframework.orm.jpa.vendor.SpringHibernateJpaPersistenceProvider.createContainerEntityManagerF
+actory(SpringHibernateJpaPersistenceProvider.java:75) ~[spring-orm-6.1.14.jar:6.1.14]
+  spring_run.log:1538:	at org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean.createNativeEntityManagerFactory(Lo
+calContainerEntityManagerFactoryBean.java:390) ~[spring-orm-6.1.14.jar:6.1.14]
+  spring_run.log:1539:	at org.springframework.orm.jpa.AbstractEntityManagerFactoryBean.buildNativeEntityManagerFactory(AbstractE
+ntityManagerFactoryBean.java:409) ~[spring-orm-6.1.14.jar:6.1.14]
+  spring_run.log:1542:	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.invokeInitMethods(Abstrac
+tAutowireCapableBeanFactory.java:1853) ~[spring-beans-6.1.14.jar:6.1.14]
+  spring_run.log:1543:	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.initializeBean(AbstractAu
+towireCapableBeanFactory.java:1802) ~[spring-beans-6.1.14.jar:6.1.14]
+  spring_run.log:1544:	... 15 common frames omitted
+> spring_run.log:1545:Caused by: org.hibernate.HibernateException: Unable to determine Dialect without JDBC metadata (please 
+set 'jakarta.persistence.jdbc.url' for common cases or 'hibernate.dialect' when a custom Dialect implementation must be 
+provided)
+  spring_run.log:1546:	at 
+org.hibernate.engine.jdbc.dialect.internal.DialectFactoryImpl.determineDialect(DialectFactoryImpl.java:191) 
+~[hibernate-core-6.5.3.Final.jar:6.5.3.Final]
+  spring_run.log:1547:	at 
+org.hibernate.engine.jdbc.dialect.internal.DialectFactoryImpl.buildDialect(DialectFactoryImpl.java:87) 
+~[hibernate-core-6.5.3.Final.jar:6.5.3.Final]
+  spring_run.log:1548:	at org.hibernate.engine.jdbc.env.internal.JdbcEnvironmentInitiator.getJdbcEnvironmentWithDefaults(JdbcEnv
+ironmentInitiator.java:153) ~[hibernate-core-6.5.3.Final.jar:6.5.3.Final]
+  spring_run.log:1549:	at org.hibernate.engine.jdbc.env.internal.JdbcEnvironmentInitiator.getJdbcEnvironmentUsingJdbcMetadata(Jd
+bcEnvironmentInitiator.java:364) ~[hibernate-core-6.5.3.Final.jar:6.5.3.Final]
+  spring_run.log:1550:	at 
+org.hibernate.engine.jdbc.env.internal.JdbcEnvironmentInitiator.initiateService(JdbcEnvironmentInitiator.java:124) 
+~[hibernate-core-6.5.3.Final.jar:6.5.3.Final]
+  spring_run.log:1551:	at 
+org.hibernate.engine.jdbc.env.internal.JdbcEnvironmentInitiator.initiateService(JdbcEnvironmentInitiator.java:78) 
+~[hibernate-core-6.5.3.Final.jar:6.5.3.Final]
+  spring_run.log:1552:	at 
+org.hibernate.boot.registry.internal.StandardServiceRegistryImpl.initiateService(StandardServiceRegistryImpl.java:130) 
+~[hibernate-core-6.5.3.Final.jar:6.5.3.Final]
+  spring_run.log:1553:	at 
+org.hibernate.service.internal.AbstractServiceRegistryImpl.createService(AbstractServiceRegistryImpl.java:263) 
+~[hibernate-core-6.5.3.Final.jar:6.5.3.Final]
+  spring_run.log:1554:	... 30 common frames omitted
+  spring_run.log:1555:
+  spring_run.log:1556:[INFO] ------------------------------------------------------------------------
+  spring_run.log:1557:[INFO] BUILD FAILURE
+  spring_run.log:1559:[INFO] Total time:  12.720 s
+  spring_run.log:1560:[INFO] Finished at: 2025-11-11T13:48:33-03:00
+  spring_run.log:1561:[INFO] ------------------------------------------------------------------------
+> spring_run.log:1562:[ERROR] Failed to execute goal org.springframework.boot:spring-boot-maven-plugin:3.3.5:run (default-cli) 
+on project api: Process terminated with exit code: 1 -> [Help 1]
+> spring_run.log:1563:org.apache.maven.lifecycle.LifecycleExecutionException: Failed to execute goal 
+org.springframework.boot:spring-boot-maven-plugin:3.3.5:run (default-cli) on project api: Process terminated with exit code: 1
+  spring_run.log:1564:    at org.apache.maven.lifecycle.internal.MojoExecutor.doExecute2 (MojoExecutor.java:333)
+  spring_run.log:1565:    at org.apache.maven.lifecycle.internal.MojoExecutor.doExecute (MojoExecutor.java:316)
+  spring_run.log:1566:    at org.apache.maven.lifecycle.internal.MojoExecutor.execute (MojoExecutor.java:212)
+  spring_run.log:1567:    at org.apache.maven.lifecycle.internal.MojoExecutor.execute (MojoExecutor.java:174)
+  spring_run.log:1568:    at org.apache.maven.lifecycle.internal.MojoExecutor.access$000 (MojoExecutor.java:75)
+  spring_run.log:1569:    at org.apache.maven.lifecycle.internal.MojoExecutor$1.run (MojoExecutor.java:162)
+  spring_run.log:1570:    at org.apache.maven.plugin.DefaultMojosExecutionStrategy.execute 
+(DefaultMojosExecutionStrategy.java:39)
+  spring_run.log:1571:    at org.apache.maven.lifecycle.internal.MojoExecutor.execute (MojoExecutor.java:159)
+  spring_run.log:1572:    at org.apache.maven.lifecycle.internal.LifecycleModuleBuilder.buildProject 
+(LifecycleModuleBuilder.java:105)
+  spring_run.log:1573:    at org.apache.maven.lifecycle.internal.LifecycleModuleBuilder.buildProject 
+(LifecycleModuleBuilder.java:73)
+  spring_run.log:1574:    at org.apache.maven.lifecycle.internal.builder.singlethreaded.SingleThreadedBuilder.build 
+(SingleThreadedBuilder.java:53)
+  spring_run.log:1575:    at org.apache.maven.lifecycle.internal.LifecycleStarter.execute (LifecycleStarter.java:118)
+  spring_run.log:1585:    at org.codehaus.plexus.classworlds.launcher.Launcher.launch (Launcher.java:201)
+  spring_run.log:1586:    at org.codehaus.plexus.classworlds.launcher.Launcher.mainWithExitCode (Launcher.java:361)
+  spring_run.log:1587:    at org.codehaus.plexus.classworlds.launcher.Launcher.main (Launcher.java:314)
+> spring_run.log:1588:Caused by: org.apache.maven.plugin.MojoExecutionException: Process terminated with exit code: 1
+  spring_run.log:1589:    at org.springframework.boot.maven.JavaProcessExecutor.run (JavaProcessExecutor.java:74)
+  spring_run.log:1590:    at org.springframework.boot.maven.RunMojo.run (RunMojo.java:76)
+  spring_run.log:1591:    at org.springframework.boot.maven.AbstractRunMojo.run (AbstractRunMojo.java:251)
+  spring_run.log:1592:    at org.springframework.boot.maven.AbstractRunMojo.execute (AbstractRunMojo.java:214)
+  spring_run.log:1593:    at org.apache.maven.plugin.DefaultBuildPluginManager.executeMojo (DefaultBuildPluginManager.java:126)
+  spring_run.log:1594:    at org.apache.maven.lifecycle.internal.MojoExecutor.doExecute2 (MojoExecutor.java:328)
+  spring_run.log:1595:    at org.apache.maven.lifecycle.internal.MojoExecutor.doExecute (MojoExecutor.java:316)
+  spring_run.log:1596:    at org.apache.maven.lifecycle.internal.MojoExecutor.execute (MojoExecutor.java:212)
+  spring_run.log:1597:    at org.apache.maven.lifecycle.internal.MojoExecutor.execute (MojoExecutor.java:174)
+  spring_run.log:1598:    at org.apache.maven.lifecycle.internal.MojoExecutor.access$000 (MojoExecutor.java:75)
+  spring_run.log:1599:    at org.apache.maven.lifecycle.internal.MojoExecutor$1.run (MojoExecutor.java:162)
+  spring_run.log:1600:    at org.apache.maven.plugin.DefaultMojosExecutionStrategy.execute 
+(DefaultMojosExecutionStrategy.java:39)
+  spring_run.log:1615:    at org.codehaus.plexus.classworlds.launcher.Launcher.launch (Launcher.java:201)
+  spring_run.log:1616:    at org.codehaus.plexus.classworlds.launcher.Launcher.mainWithExitCode (Launcher.java:361)
+  spring_run.log:1617:    at org.codehaus.plexus.classworlds.launcher.Launcher.main (Launcher.java:314)
+> spring_run.log:1618:[ERROR] 
+> spring_run.log:1619:[ERROR] 
+> spring_run.log:1620:[ERROR] For more information about the errors and possible solutions, please read the following articles:
+> spring_run.log:1621:[ERROR] [Help 1] http://cwiki.apache.org/confluence/display/MAVEN/MojoExecutionException
+  spring_run.log:1622:[DEBUG] Shutting down adapter factory; available factories [file-lock, rwlock-local, semaphore-local, 
+noop]; available name mappers [discriminating, file-gav, file-hgav, file-static, gav, static]
+  spring_run.log:1623:[DEBUG] Shutting down 'file-lock' factory
+  spring_run.log:1624:[DEBUG] Shutting down 'rwlock-local' factory
+  spring_run.log:1625:[DEBUG] Shutting down 'semaphore-local' factory
+  spring_run.log:1626:[DEBUG] Shutting down 'noop' factory
+
+
