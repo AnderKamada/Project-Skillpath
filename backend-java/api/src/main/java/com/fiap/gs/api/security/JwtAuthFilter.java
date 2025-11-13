@@ -10,12 +10,14 @@ import org.springframework.lang.NonNull;
 import org.springframework.security.authentication.UsernamePasswordAuthenticationToken;
 import org.springframework.security.core.authority.SimpleGrantedAuthority;
 import org.springframework.security.core.context.SecurityContextHolder;
+import org.springframework.stereotype.Component;
 import org.springframework.util.StringUtils;
 import org.springframework.web.filter.OncePerRequestFilter;
 
 import java.io.IOException;
 import java.util.List;
 
+@Component
 public class JwtAuthFilter extends OncePerRequestFilter {
 
     private final JwtUtil jwtUtil;
@@ -35,12 +37,16 @@ public class JwtAuthFilter extends OncePerRequestFilter {
             String token = header.substring(7);
             if (jwtUtil.isValid(token)) {
                 String username = jwtUtil.getUsername(token);
-                // Demo: todo mundo autenticado recebe ROLE_USER
+
                 var auth = new UsernamePasswordAuthenticationToken(
-                        username, null, List.of(new SimpleGrantedAuthority("ROLE_USER")));
+                        username,
+                        null,
+                        List.of(new SimpleGrantedAuthority("ROLE_USER"))
+                );
                 SecurityContextHolder.getContext().setAuthentication(auth);
             }
         }
+
         filterChain.doFilter(request, response);
     }
 }
